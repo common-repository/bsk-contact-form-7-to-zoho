@@ -1,0 +1,291 @@
+
+.bsk-pro-tips-box {
+    font-size: 12px;
+    border: 1px solid #00abff;
+    display: block;
+    padding: 5px;
+	margin: 10px 0 10px 0;
+    background: #e5f3f9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bsk-pro-tips-box a{
+	text-decoration:none;
+	color:#ff5b00;
+	padding-left:10px;
+}
+
+
+.bsk-documentation-attr{
+    color: #ff5b00
+}
+
+.bsk-cf7-to-zoho-error-message{
+    color: #FF0000 !important;
+}
+
+.bsk-cf7-bold{
+    font-weight: bold;
+}
+
+.bsk-cf7-to-zoho-alert-msg {
+    color: #E24520;
+    font-size: 13px;
+    padding-left: 1px;
+    display: inline-block;
+}
+
+.bsk-cf7-to-zoho-prompt-msg {
+    color: #1abb25;
+    font-size: 13px;
+    padding-left: 1px;
+    display: inline-block;
+}
+
+/*
+ * Add client ID
+ */
+.bsk-cf7zoho-heading-text{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.bsk-cf7zoho-add-client-id-button,
+.bsk-cf7zoho-new-cliet-id-button,
+.bsk-cf7zoho-new-cliet-id-cancel-button,
+.bsk-cf7-settings-button{
+    background-color: #1e85d2 !important;
+    border: 1px solid #1e85d2 !important;
+    padding: 5px 15px !important;
+    color: #FFFFFF !important;
+    text-align: center;
+}
+
+.bsk-cf7zoho-add-client-zoho-screenshot{
+    background-color: #FFFFFF !important;
+    border: none !important;
+}
+
+.bsk-cf7zoho-copy {
+  position: relative;
+  display: inline-block;
+}
+
+.bsk-cf7zoho-copy .bsk-cf7zoho-copy-tip {
+  visibility: hidden;
+  width: 100px;
+  background-color: #ccc;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.bsk-cf7zoho-copy .bsk-tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ccc transparent transparent transparent;
+}
+
+.bsk-cf7zoho-copy-anchor{
+    cursor: copy;
+    background: url( "../images/copy-16.png" ) no-repeat; 
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.bsk-cf7-to-zoho-get-approval-button{
+    background-color: #f04b2f !important;
+    border: 1px solid #f04b2f !important;
+    color: #FFFFFF !important;
+    text-align: center;
+}
+
+.bsk-cf7-to-zoho-client-id-info-label {
+    padding: 0px 0px 10px 0px;
+}
+
+.bsk-cf7zoho-client-id-info-input {
+    border: 1px solid transparent !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #aaaaaa !important;
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+
+.bsk-cf7zoho-client-id-info-input {
+    height: 20px;
+    width: 80%;
+    font-size: 13px;
+    padding: 4px 0px;
+    white-space: pre-line;
+    display: inline-block;
+}
+
+.bsk-cf7zoho-client-id-info-input[readonly]{
+    background-color: white !important;
+}
+
+#bsk_cf7_to_zoho_setings_tab_content_wrap_ID{
+	padding:22px;
+	background: #fff;
+	border:1px solid #ccc;
+	border-top:0px;
+}
+
+#bsk_cf7_to_zoho_setings_tab_content_wrap_ID section{
+	display: none;
+}
+
+#bsk_cf7_to_zoho_setings_tab_content_wrap_ID section:first-child{
+	display: block;
+}
+
+.no-js h2.nav-tab-wrapper {
+	display: none;
+}
+
+.no-js #bsk_cf7_to_zoho_setings_tab_content_wrap_ID{
+	border-top: 1px solid #ccc;
+	margin-top: 22px;
+}
+
+.no-js #bsk_cf7_to_zoho_setings_tab_content_wrap_ID section{
+	border-top: 1px dashed #aaa;
+	margin-top: 22px;
+	padding-top: 22px;
+}
+
+.no-js #bsk_cf7_to_zoho_setings_tab_content_wrap_ID section:first-child{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+/*
+  * admin panel
+  */
+.bsk-cf7-to-zoho-form-feeds-list-container .tablenav.top{
+    display: none !important;
+}
+
+.bsk-cf7-to-zoho-form-panel .add-new-h2{
+    margin-left: 0px !important;
+}
+
+.bsk-cf7-to-zoho-form-feed-settings-label{
+    display: inline-block;
+    width: 25%;
+}
+
+.bsk-cf7-to-zoho-form-feed-status,
+.bsk-cf7-to-zoho-form-feed-module{
+    width: 15%;
+}
+
+.bsk-cf7-to-zoho-form-feed-name,
+.bsk-cf7-to-zoho-form-feed-checkbox-label{
+    display: inline-block;
+    width: 30%;
+}
+
+.bsk-cf7-to-zoho-read-more{
+    font-size: 0.8em;
+}
+
+.bsk-cf7-to-zoho-mandatory{
+    color: #E24520;
+    margin-left: 15px;
+}
+.bsk-cf7-to-zoho-feed-mandatory-fields-alert-msg{
+    color: #E24520;
+}
+
+/*
+ * mapping
+ */
+.bsk-cf7zoho-form-feed-mapping-container{
+    border: #FFFFFF 1px solid; 
+    background-color: #FFFFFF; 
+    padding: 0px 15px 15px 15px;
+    line-height: normal;
+}
+
+.bsk-cf7zoho-layout-title{
+    font-weight: 600 !important;
+}
+
+.bsk-cf7-to-zoho-mapping-form-fields-operaion-span{
+    vertical-align: middle;
+    width: 25%;
+}
+
+.bsk-cf7-to-zoho-mapping-form-fields-plus,
+.bsk-cf7-to-zoho-mapping-form-fields-minus{
+    font-size: 2.5em;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.bsk-cf7-to-zoho-feed-active-inactive,
+.bsk-cf7-to-zoho-feed-debug{
+    width: 25px;
+    height: auto;
+    display: -moz-inline-stack;
+    display: inline-block;
+    margin: 3px 0 0;
+    cursor: pointer;
+}
+
+.bsk-cf7-to-zoho-feeds .column-status{
+    width: 10%;
+}
+.bsk-cf7-to-zoho-feeds .column-name{
+    width: 30%;
+}
+.bsk-cf7-to-zoho-feeds .column-module{
+    width: 10%;
+}
+.bsk-cf7-to-zoho-feeds .column-id{
+    width: 5%;
+}
+.bsk-cf7-to-zoho-feeds .column-datetime{
+    width: 15%;
+}
+.bsk-cf7-to-zoho-feeds .debug_image{
+    width: 20%;
+}
+.bsk-cf7-to-zoho-feeds .column-operation{
+    width: 10%;
+}
+
+.bsk-cf7-to-zoho-feed-last-log-download{
+    margin-left: 10px;
+}
+
+.bsk-cf7-to-zoho-feed-delete{
+    margin-left: 15px;
+}
+
+/*
+  * settings
+ */
+.bsk-cf7-to-zoho-account-from-selector{
+    width: 250px;
+}
